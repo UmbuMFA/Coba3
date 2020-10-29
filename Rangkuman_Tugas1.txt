@@ -1,0 +1,28 @@
+pada Pertemuan  Pertama Di ajari bagaimana menginstal Laravel dan Apa itu Laravel
+laravel adalah sebuah salah satu framework dari PHP.
+sama halnya dengan Boost trap yang dimiliki CSS
+
+Tata cara menginstal Laravel
+    Pertama membuka CMD dan Mengencek versi PHP dengan cara -i
+    Kemudian mendownload laravel Dengan cara membuka Link atau mencari Di google *Disini kita menggunakan Versi 6
+    Akan Tetapi sebelum itu kita Harus menginstal Composer Terlebih Dahulu
+    Setelah Composer ter instal kita kembali membuka CMD
+    kemudian memasukkan perintah "cd blog"
+    kemudian memasukkan composer create-project --prefer-dist laravel/laravel blog "6.*"
+    Kemudian  Memasukkan Perintah "php artisan key:generate"
+    lalu yang terakhir "php artisan serve"
+    lalu membuka URL 127.0.0.1:8000; dan Laravel siap Digunakan
+
+Lalu Setelah menginstal laravel kemudian Belajar Menggunakan Git
+Pertama Mendownload File git di situs resminya
+yang kedua menginstal git
+Ketiga Membuat Account di Github
+setelah itu login dan membuat Repository dan click Cereate
+setelah itu ke CMD dan meliakukan perintah "git init"
+untuk mengubah folder tersebut menjadi Repository
+kemudian kita juga bisa menambah file ke repository dengan cara "Git add"
+Kemudian membuat Commit dengan git commit -m "......"
+kemudian memberikan perintah (git remote add "URLgit Anda)" untuk mengupload file ke repository
+yang terakhir melakukan git push -u origin master untuk mengupload git anda ke Github dan selesai;
+
+Git merupakan penyimpanan jenis Cloud yang dapat diakses di manapun dan dapat ditracking untuk setiap perubahan yang terjadi
